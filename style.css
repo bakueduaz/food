@@ -1,0 +1,379 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+body section {
+  padding: 80px 0;
+}
+
+header {
+  padding: 20px 0;
+}
+header .imgbox {
+  width: 35px;
+}
+header .btn {
+  background-color: #b9b1b1;
+  display: none;
+  border: 2px solid #b9b1b1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #040404;
+  opacity: 0.6;
+}
+header nav a {
+  font-size: 20px;
+  color: #8c8999;
+  margin-right: 30px;
+}
+header nav .home-color {
+  color: #74bebc;
+}
+@media screen and (max-width: 992px) {
+  header .menu {
+    padding: 0 20px;
+  }
+  header .menu .btn {
+    display: flex;
+  }
+  header .menu nav {
+    display: none;
+  }
+}
+
+#beatiful {
+  background-color: #f4fafb;
+}
+#beatiful .box {
+  width: 450px;
+  padding: 0 30px;
+}
+#beatiful .box h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#beatiful .box span {
+  color: #37b7c3;
+}
+#beatiful .box h5 {
+  font-size: 18px;
+  color: #676f8b;
+  line-height: 1.3;
+  margin: 25px 0 35px;
+}
+#beatiful .box .btn {
+  color: white;
+  background-color: #38b6c1;
+  padding: 13px 22px;
+  border-radius: 5px;
+}
+#beatiful .box .btn h2 {
+  font-size: 18px;
+}
+#beatiful .box .imgbox {
+  width: 85px;
+  margin: 20px 0 10px;
+}
+#beatiful .box h4 {
+  font-size: 18px;
+}
+@media screen and (max-width: 992px) {
+  #beatiful .box {
+    padding: 80px 0;
+    width: 480px;
+    text-align: center;
+  }
+  #beatiful .box .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #beatiful .imgbox {
+    width: 450px;
+  }
+}
+
+#thehome {
+  background-color: #f1f8f9;
+}
+#thehome .textbox {
+  padding-right: 50px;
+}
+#thehome .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+  padding-right: 170px;
+}
+#thehome .textbox h5 {
+  font-size: 18px;
+  color: #676f8b;
+  line-height: 1.3;
+  margin: 25px 75px 50px 0;
+}
+#thehome .textbox .btn {
+  color: white;
+  background-color: #38b6c1;
+  padding: 13px 22px;
+}
+#thehome .textbox .btn h2 {
+  font-size: 20px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 992px) {
+  #thehome .textbox {
+    width: 480px;
+    padding: 80px 0;
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    padding-right: 0;
+  }
+  #thehome .textbox h5 {
+    margin-right: 0;
+  }
+  #thehome .imgbox {
+    width: 450px;
+  }
+}
+
+#works h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+  margin-bottom: 60px;
+}
+#works .box {
+  padding-bottom: 70px;
+}
+#works .box .minibox {
+  display: flex;
+  justify-content: center;
+}
+#works .box .minibox .imgbox {
+  width: 350px;
+}
+#works .box .textbox {
+  text-align: center;
+  padding: 35px 45px;
+}
+#works .box .textbox h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+#works .box .textbox h4 {
+  color: #676f8b;
+  font-size: 20px;
+  line-height: 1.3;
+}
+@media screen and (max-width: 992px) {
+  #works .box .textbox {
+    padding: 35px 50px;
+  }
+}
+
+#browse {
+  background-color: #f5fbfc;
+}
+#browse .textbox {
+  text-align: center;
+}
+#browse .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #3cc1d8;
+}
+#browse .textbox h4 {
+  line-height: 1.2;
+  font-size: 20px;
+  color: rgba(36, 48, 68, 0.5215686275);
+  margin: 20px 0;
+}
+#browse .textbox h4 span {
+  color: #14c7cd;
+  text-decoration: underline;
+}
+#browse .btn {
+  width: 200px;
+  font-size: 18px;
+  padding: 15px 80px;
+  border: 0.5px solid #bdbdbd;
+  border-radius: 5px;
+}
+#browse .bgc {
+  color: white;
+  background-color: #14c7cd;
+}
+#browse .box {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#browse .box .imgbox {
+  border-radius: 10px;
+}
+#browse .box .textbox {
+  text-align: start;
+  width: auto;
+  margin-left: 20px;
+}
+#browse .box .textbox h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#browse .box .textbox h5 {
+  font-size: 18px;
+  color: #3cc1d8;
+}
+#browse .box .textbox p {
+  font-size: 18px;
+  color: rgba(35, 47, 66, 0.5215686275);
+  margin: 15px 0;
+  line-height: 1.2;
+}
+#browse .box .textbox .add {
+  display: flex;
+}
+#browse .box .textbox .add input {
+  border: 1px solid #e1e1e1;
+  background-color: #e9e9e9;
+  width: 50px;
+}
+#browse .box .textbox .add .btn {
+  background-color: #14c7cd;
+  color: white;
+  padding: 7px 10px;
+  margin-left: 5px;
+}
+#browse .box .textbox .add .cart {
+  width: 140px;
+}
+#browse .box .textbox .add .cart h3 {
+  font-size: 15px;
+}
+#browse .big {
+  padding: 17px 51px;
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  #browse .box {
+    display: flex;
+    align-items: center;
+  }
+  #browse .box .imgbox {
+    width: 150px;
+  }
+  #browse .box .minibox {
+    display: flex;
+    justify-content: space-between;
+  }
+  #browse .box .minibox h2 {
+    margin: 0;
+  }
+}
+
+#order .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#order .textbox h5 {
+  margin: 25px 0 50px;
+  color: #676f8b;
+  line-height: 1.3;
+  font-size: 20px;
+}
+#order .textbox .btn {
+  background-color: #14c7cd;
+  color: white;
+  padding: 13px 34px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 992px) {
+  #order .textbox {
+    text-align: center;
+    width: 480px;
+    padding: 80px 0;
+  }
+  #order .textbox h5 {
+    margin-right: 0;
+  }
+  #order .imgbox {
+    width: 450px;
+  }
+}
+
+#callour {
+  background-color: #f1f8f9;
+}
+#callour .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#callour .textbox h5 {
+  color: #47627d;
+  font-size: 20px;
+  margin: 20px 70px 50px 0;
+  line-height: 1.3;
+}
+#callour .textbox .btn {
+  background-color: #14c7cd;
+  color: white;
+  font-size: 20px;
+  padding: 13px 34px;
+}
+@media screen and (max-width: 992px) {
+  #callour .textbox {
+    text-align: center;
+    padding: 80px 0;
+    width: 480px;
+  }
+  #callour .textbox h5 {
+    margin-right: 0;
+  }
+  #callour .imgbox {
+    width: 450px;
+  }
+}
+
+#support .textbox {
+  padding: 0 80px;
+}
+#support .textbox h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+#support .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#support .textbox .btn {
+  font-size: 22px;
+  color: #38b6c1;
+  padding: 10px 30px;
+  background-color: white;
+  margin: 30px 0;
+}
+#support .bgc {
+  background-color: #35b6c1;
+}
+@media screen and (max-width: 992px) {
+  #support .imgbox {
+    margin-bottom: 10px;
+    height: 350px;
+  }
+  #support .textbox {
+    padding: 50px 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
